@@ -5,7 +5,7 @@ The Core2 screen brightness is capable of a much larger range of intensities tha
 This Arduino .ino sketch file contains a useful function: **core2Brightness()**                   
 Normally the brightness can be set from **8 through 20**. (2.5 volts to 2.8 volts)                         
 This function not enly extends the range of brightness values that can be used from **1 through 36**, but it also turns the LED off at value 0.                      
-While voltages between 2.8 and 3.3 are allowed, there's an "overdrive" flag if you want to avoid them, as the standard library sets the screen to 2.8 volts at startup. (Which is a "safe maximum" to avoid over heating and LED burnout).
+There's a safety "overdrive" flag if you want to drive the LCD backlight higher than the recommended voltage of 2.8 (up to 3.3) that needs to be set to **true**.
 
 **🔴WARNING!🔴**  
 Setting "turbo" to true, and brightness over 20 CAN damage your display.                
