@@ -18,5 +18,4 @@ This gives an extra 16 brightness levels ABOVE the Core2's standard brightness s
 36: Full brightness the screen LED can do. (3.2 volts)
 
 The .ino sketch shows these settings in action:
-![screenBrightness](https://user-images.githubusercontent.com/1586332/128865400-9b9cfd38-35c9-4c84-b473-0021d8c5de32.png)
-
+![image](https://user-images.githubusercontent.com/1586332/128866190-4e3f69bd-8aa7-40ec-92f7-ed0894d540bc.png)
