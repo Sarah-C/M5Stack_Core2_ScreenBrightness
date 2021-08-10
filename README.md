@@ -7,8 +7,9 @@ Normally the brightness can be set from 8 through 36. (2.5 volts to 3.3 volts)
 This function not enly extends the range of brightness values that can be used from 1 through 36, much lower levels than the library allows, but it also turns the LED off at value 0.                      
 While voltages between 2.8 and 3.3 are allowed, there's an "overdrive" flag if you want to avoid them, as the standard library sets the screen to 2.8 volts at startup. (Which is a "safe maximum" to avoid over heating and LED burnout).
 
-**WARNING!**           
-Direct quote from the M5Stack offices: **"[Over 2.8v - level 20 in my function] No problem for short-time running in 3.3V. Let's say 1 or 2 hrs."**
+**WARNING!**  
+When running over 2.8v - which is over level 20 in my function...
+Direct quote from the M5Stack offices: **"No problem for short-time running in 3.3V. Let's say 1 or 2 hrs."**
 
  **void core2Brightness(uint8_t lvl, bool overdrive = false)**        
 The "lvl" parameter:         
