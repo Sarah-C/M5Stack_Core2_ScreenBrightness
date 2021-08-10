@@ -23,7 +23,7 @@ This gives an extra 16 brightness levels ABOVE the Core2's standard brightness s
 0: Backlight physically off.         
 20: The standard brightness set by the Core2 library. (2.8 volts)      
 36: Full brightness the screen LED can do. (3.2 volts)       
-
+ 
 
 The .ino sketch shows these settings in action, use the touchscreen to control it:
 
