@@ -9,7 +9,7 @@ This function not enly extends the range of brightness values that can be used f
 
 **🔴WARNING!🔴**  
 Setting "turbo" to true, and brightness over 20 CAN damage your display.              
-Therefore there's an optional safety "overdrive" flag if you want to drive the LCD backlight higher than the recommended voltage of 2.8 (up to 3.3) that needs to be set to **true**. If it's false, or omitted from the function call, it's impossible to go over the safe 2.8 volts.
+Therefore there's an optional safety "overdrive" flag if you want to drive the LCD backlight higher than the recommended voltage of 2.8 (up to 3.3) that needs to be set to **true**. If it's false, or omitted from the function call, it's impossible to go over the safe 2.8 volts.           
 When running over 2.8v - which is over level 20 in my function here's a direct quote from the M5Stack offices:               
 **"No problem for short-time running in 3.3V. Let's say 1 or 2 hrs."**
 
