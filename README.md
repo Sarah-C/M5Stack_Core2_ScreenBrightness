@@ -3,8 +3,8 @@
 The Core2 screen brightness is capable of a much larger range of intensities than the standard functions use.
 
 This Arduino .ino sketch file contains a useful function: **core2Brightness()**                   
-Normally the brightness can be set from 8 through 20. (2.5 volts to 2.8 volts)                         
-This function not enly extends the range of brightness values that can be used from 1 through 36, but it also turns the LED off at value 0.                      
+Normally the brightness can be set from **8 through 20**. (2.5 volts to 2.8 volts)                         
+This function not enly extends the range of brightness values that can be used from **1 through 36**, but it also turns the LED off at value 0.                      
 While voltages between 2.8 and 3.3 are allowed, there's an "overdrive" flag if you want to avoid them, as the standard library sets the screen to 2.8 volts at startup. (Which is a "safe maximum" to avoid over heating and LED burnout).
 
 **🔴WARNING!🔴**  
