@@ -8,7 +8,7 @@ This function not enly extends the range of brightness values that can be used f
 While voltages between 2.8 and 3.3 are allowed, there's an "overdrive" flag if you want to avoid them, as the standard library sets the screen to 2.8 volts at startup. (Which is a "safe maximum" to avoid over heating and LED burnout).
 
 **🔴WARNING!🔴**  
-When running over 2.8v - which is over level 20 in my function...
+When running over 2.8v - which is over level 20 in my function...           
 Direct quote from the M5Stack offices: **"No problem for short-time running in 3.3V. Let's say 1 or 2 hrs."**
 
  **void core2Brightness(uint8_t lvl, bool overdrive = false)**        
